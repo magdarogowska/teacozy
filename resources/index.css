@@ -50,14 +50,61 @@ h2, h4 {
   padding: 30px 15px;
 }
 
+#teamonth {
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content:center;
+  align-items:center;
+  padding-top:30px;
+}
+
 #products {
-  margin:auto;
   display:flex;
   flex-flow:row wrap;
   justify-content:center;
   align-items:center;
   align-content:center;
   width:1000px;
+  margin:auto;
+}
+
+#locationparent {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items:space-around;
+  width:1200px;
+  height:500px;
+  background-image: url("./pictures/img-locations-background.jpg");
+  margin:auto;
+}
+
+#locationheaddiv {
+  width:980px;
+}
+
+#locationhead {
+  text-align:center;
+  background-color:transparent;
+}
+
+#locationdivs {
+  display:flex;
+  flex-flow:row wrap;
+  align-items:center;
+  justify-content:center;
+  opacity:1;
+}
+
+.locations {
+  display:flex;
+  flex-flow: column wrap;
+  justify-content:center;
+  align-items:center;
+  height:300px;
+  width:300px;
+  margin:20px;
+  background-color:black;
 }
 
 #firstpicture {
@@ -68,6 +115,11 @@ h2, h4 {
   background-image: url("./pictures/img-mission-background.jpg");
   height:700px;
   width:1200px;
+}
+
+#prefooter {
+  height:200px;
+  text-align:center;
 }
 
 #sitecontent {
