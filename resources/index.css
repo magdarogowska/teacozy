@@ -12,14 +12,14 @@ header {
   padding-bottom:8px;
 }
 
-.logo span {
-  font-size:50px;
-  color:seashell;
-  opacity:0.9;
+header img {
+  height:50px;
   padding-left: 10px;
-  font-family:cursive;
 }
 
+span a {
+  padding-right:15px;
+}
 
 h1, h2, h3, h4, h5, h6, p, a, span {
   font-family:Helvetica;
@@ -42,6 +42,7 @@ h2, h4 {
 .product img {
   width:300px;
   height:200px;
+  padding-bottom:10px;
 }
 
 .product {
@@ -72,20 +73,20 @@ h2, h4 {
   display:flex;
   flex-flow: row wrap;
   justify-content:center;
-  align-items:space-around;
+  align-items:center;
+  align-content:center;
   width:1200px;
   height:500px;
   background-image: url("./pictures/img-locations-background.jpg");
   margin:auto;
 }
 
-#locationheaddiv {
-  width:980px;
-}
-
 #locationhead {
   text-align:center;
   background-color:transparent;
+  width:980px;
+  padding:0px;
+  margin-bottom:15px;
 }
 
 #locationdivs {
@@ -94,6 +95,7 @@ h2, h4 {
   align-items:center;
   justify-content:center;
   opacity:1;
+  height:300px;
 }
 
 .locations {
@@ -103,7 +105,7 @@ h2, h4 {
   align-items:center;
   height:300px;
   width:300px;
-  margin:20px;
+  margin:0px 20px;
   background-color:black;
 }
 
@@ -120,6 +122,11 @@ h2, h4 {
 #prefooter {
   height:200px;
   text-align:center;
+}
+
+footer p {
+  text-align:left;
+  padding-left:20px;
 }
 
 #sitecontent {
